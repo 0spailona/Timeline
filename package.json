@@ -9,7 +9,7 @@
     "babel": "babel src -d dist",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "echo I have no tests yet"
+    "test": "jest src/tests"
   },
   "repository": {
     "type": "git",

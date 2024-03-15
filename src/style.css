@@ -25,14 +25,13 @@ body {
   display: none;
   flex: 1;
   overflow: auto;
-  border: 1px solid darkblue;
 }
 
 .messageContainer {
   display: flex;
   flex-direction: column;
+  flex:1;
   gap: 20px;
-  width: 90%;
   padding-bottom: 40px;
   overflow: auto;
 }
@@ -140,7 +139,7 @@ body {
 }
 
 .label {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
